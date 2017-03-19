@@ -2,7 +2,7 @@
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md)
 
-[Japanese version](README.ja.md) available
+[日本語版(Japanese version)](README.ja.md) available
 
 This repository includes basic elements to develop a Slack bot such as:
 * Botkit
@@ -76,13 +76,13 @@ Add the app to your team by visiting `https://${APP_NAME}.herokuapp.com/login`.
 
 ### Dev tips
 #### To use custom db name
-Set MongoUrl at the beginning of src/index.html with your db name like `mongodb://db:27017/${DB_NAME}`.
+Set MongoUrl at the beginning of [src/index.js](src/index.js) with your db name like `mongodb://db:27017/${DB_NAME}`.
 
 #### To use custom collectsions
-Add custom collections to the collections array of the storage attribute at the beginning of src/index.html.
+Add custom collections to the collections array of the storage attribute at the beginning of [src/index.js](src/index.js).
 
 #### To access MongoDB from host
-The port 27017 is forwarded. Then just access as usual.
+The port 27017 is forwarded. Then just access as usual.  
 **The MongoDB on your host OS must be stopped beforehand.**
 ```
 $ mongo
