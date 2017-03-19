@@ -1,0 +1,35 @@
+{
+  "name": "docker-botkit",
+  "version": "1.0.0",
+  "description": "Boilerplate for botkit with MongoDB on Docker",
+  "main": "src/index.js",
+  "engines": {
+    "node": "6.10.0",
+    "npm": "3.10.10"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/affectry-inc/docker-botkit.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "botkit",
+    "docker"
+  ],
+  "author": "xiz-tky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/affectry-inc/docker-botkit/issues"
+  },
+  "homepage": "https://github.com/affectry-inc/docker-botkit#readme",
+  "dependencies": {
+    "botkit": "^0.5.1",
+    "monk": "^4.0.0",
+    "request": "^2.79.0"
+  }
+}
