@@ -1,8 +1,8 @@
 var Botkit = require('botkit');
 var MongoUrl = process.env.MONGODB_URI || 'mongodb://db:27017/lunchbot';
 
-if (!process.env.CLIENT_ID || !process.env.CLIENT_SECRET || !process.env.VERIFICATION_TOKEN || !process.env.PORT) {
-  console.log('Error: Specify CLIENT_ID, CLIENT_SECRET, VERIFICATION_TOKEN and PORT in environment');
+if (!process.env.CLIENT_ID || !process.env.CLIENT_SECRET || !process.env.PORT) {
+  console.log('Error: Specify CLIENT_ID, CLIENT_SECRET and PORT in environment');
   process.exit(1);
 }
 
