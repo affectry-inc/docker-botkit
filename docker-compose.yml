@@ -12,7 +12,6 @@ services:
       - /home/app/bot/node_modules
     env_file: .env
   db:
-    restart: always
     image: mongo:3.4.2
     ports:
       - '27017:27017'
